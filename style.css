@@ -1,0 +1,35 @@
+body {
+  display: flex;
+  flex-direction: row !important;
+  flex-wrap: wrap;
+  justify-content: center;
+   background-color: rgb(50, 50, 104) !important;
+  color: white !important;
+}
+.card {
+  margin-top: 30px;
+  margin-left: 30px;
+  width: 300px;
+  height: 300px;
+  border: 3px solid white !important;
+  
+}
+.card-body {
+  background-color:gray !important;
+  color:white !important;
+  text-align: center;
+}
+.card-img-top {
+  width: auto;
+  height: 200px;
+  margin: auto;
+  padding: 15px !important;
+  background-color: gray !important;
+}
+.card-header {
+  background-color: black !important;
+  color: white !important;
+  font-weight: bolder;
+  font-size: larger;
+  text-align: center;
+}
